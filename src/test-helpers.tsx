@@ -6,7 +6,7 @@ import type {
     SimulationToJsx,
     IWindowEnvironmentProps,
     ICanvasEnvironmentProps,
-} from './types';
+} from './simulation-types';
 import { entries } from './typed-entries';
 
 type CanvasStyles = Pick<

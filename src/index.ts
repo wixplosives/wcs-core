@@ -1,3 +1,3 @@
 export * from './create-simulation';
-export * from './types';
+export * from './simulation-types';
 export * from './test-helpers';
