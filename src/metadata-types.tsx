@@ -34,15 +34,26 @@ export function wcsCreateMetadata(
     return createMetadata<React.ComponentType, WCS_COMPONENT_METADATA>(metadata);
 }
 
+import type '@wixc3/wcs-core/comments'
+
 // TODO - remove, just example
 const k = wcsCreateMetadata({
-    componentRef: c,
-    componentMetadata: {
+    ref: c,
+    metadata: {
         tags: ['hello'],
-    },
-    propsAnnotations: {
-        text1: {
-            visualizer: '',
-        },
-    },
+    }
 });
+
+.sim.tsx
+.meta.tsx
+
+
+_wcs/metadata/userProfileInterface.meta.tsx
+
+import { a } from ...
+import type '@wixc3/wcs-comments'
+
+createMetadata<Entity, [CommentExtension, TagsExtension]>({
+    ref: a,
+    ...
+})
