@@ -27,6 +27,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "html-webpack-plugin": "^5.3.1",
     "lerna": "^4.0.0",
+    "lit": "^2.0.0-rc.1",
     "mocha": "^8.3.2",
     "mocha-play": "^1.0.1",
     "playwright-chromium": "^1.10.0",
